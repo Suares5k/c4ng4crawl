@@ -12,7 +12,7 @@ Ao finalizar o recon, use a automação c4ng4separator para separar as urls por 
 sudo su
 ```
 ```
-bash c4ng4separator.sh
+bash cangaseparator.sh
 ```
 
 ## Ferramentas necessárias
