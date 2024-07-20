@@ -9,4 +9,4 @@ cd $pasta
 echo Digite a url
 read url
 
-subfinder -d $url | httpx -silent -threads 1000 | xargs -I@ sh -c 'findomain -t @ -q | httpx -silent | anew | waybackurls | anew allurls'
+subfinder -d $url | httpx-toolkit -silent -threads 1000 | xargs -I@ sh -c 'findomain -t @ -q | httpx-toolkit -silent | anew | waybackurls | anew allurls'
